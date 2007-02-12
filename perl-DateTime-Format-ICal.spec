@@ -6,7 +6,7 @@
 %define	pdir	DateTime
 %define	pnam	Format-ICal
 Summary:	DateTime::Format::ICal - Parse and format iCal datetime and duration strings
-Summary(pl.UTF-8):   DateTime::Format::ICal - analiza i formatowanie łańcuchów czasów i okresów iCal
+Summary(pl.UTF-8):	DateTime::Format::ICal - analiza i formatowanie łańcuchów czasów i okresów iCal
 Name:		perl-DateTime-Format-ICal
 Version:	0.08
 Release:	2

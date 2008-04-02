@@ -8,13 +8,13 @@
 Summary:	DateTime::Format::ICal - Parse and format iCal datetime and duration strings
 Summary(pl.UTF-8):	DateTime::Format::ICal - analiza i formatowanie łańcuchów czasów i okresów iCal
 Name:		perl-DateTime-Format-ICal
-Version:	0.08
-Release:	2
+Version:	0.09
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/D/DR/DROLSKY/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b0be692f3a84f2a7f73a39220ec69a52
+# Source0-md5:	17bb64bfb515f2db365ba5bb5a68a143
 URL:		http://search.cpan.org/dist/DateTime-Format-ICal/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -61,6 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes
 %{perl_vendorlib}/DateTime/Format/*.pm
 %{_mandir}/man3/*

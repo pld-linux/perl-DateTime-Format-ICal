@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	DateTime
 %define	pnam	Format-ICal
 Summary:	DateTime::Format::ICal - Parse and format iCal datetime and duration strings

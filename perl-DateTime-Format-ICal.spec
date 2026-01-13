@@ -8,7 +8,7 @@ Summary:	DateTime::Format::ICal - Parse and format iCal datetime and duration st
 Summary(pl.UTF-8):	DateTime::Format::ICal - analiza i formatowanie łańcuchów czasów i okresów iCal
 Name:		perl-DateTime-Format-ICal
 Version:	0.09
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
